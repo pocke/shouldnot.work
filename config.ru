@@ -1,4 +1,5 @@
-require 'sinatra'
+require 'bundler'
+Bundler.require
 
 get '/' do
   <<~HTML
@@ -28,3 +29,5 @@ get '/' do
     </body>
   HTML
 end
+
+run Sinatra::Application
