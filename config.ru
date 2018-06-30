@@ -9,6 +9,7 @@ get '/' do
         display: table;
         width: 100%;
         height: 100%;
+        margin: 0;
       }
       h1 {
         font-size: 5rem;
