@@ -16,6 +16,15 @@ get '/' do
         display: table-cell;
         vertical-align: middle;
       }
+      footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: left;
+      }
     </style>
     <body>
       <h1>
@@ -27,6 +36,7 @@ get '/' do
           ].sample
         }
       </h1>
+      <footer><a href="https://github.com/pocke/shouldnot.work">https://github.com/pocke/shouldnot.work</a></footer>
     </body>
   HTML
 end
